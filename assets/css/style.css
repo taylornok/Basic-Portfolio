@@ -12,7 +12,7 @@ body {
 
 /* general */
 
-.container {
+/*.container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -77,7 +77,7 @@ h3 {
   background: #4aaaa5;
 }
 
-nav {
+/*nav {
   float: right;
   margin-top: 25px;
 }
@@ -122,6 +122,8 @@ h3, h2 {
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
+  position: relative;
+  float: left;
 }
 
 .main-section {
@@ -215,3 +217,4 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
